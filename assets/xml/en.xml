@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portfolio SYSTEM "../dtd/portfolio.dtd">
+<portfolio>
+    <title>Responsive portfolio - Ghasen BJ</title>
+    <nav>
+        <home>Home</home>
+        <work>Work</work>
+        <info>My Info</info>
+        <services>Services</services>
+        <contact>Contact Me</contact>
+    </nav>
+    <home>
+        <name>Ghassen Ben Jannet</name>
+        <profession>Web Developer</profession>
+    </home>
+    <work>
+        <title>VIDEO</title>
+    </work>
+    <info>
+        <title>MY INFO</title>
+        <about>
+            <title>About Me</title>
+            <description>Passionate about creating <b>websites with beautiful interfaces</b>. I have years of experience in <b>Web Development</b> with several projects completed.</description>
+            <button>Download</button>
+        </about>
+        <experience>
+            <title>Experience</title>
+            <companies>
+                <company>
+                    <name>Carthage Solutions</name>
+                    <role>Web Developer</role>
+                    <date>04/22 - 07/22</date>
+                    <description>Analysis and design of the solution, Implementation of the feature, Database manipulation.</description>
+                </company>
+                <company>
+                    <name>Apprentice web engineer</name>
+                    <role>Web Developer</role>
+                    <date>Since 09/22</date>
+                    <description>Analysis and design, Web programming, Data manipulation, Testing and validation.</description>
+                </company>
+            </companies>
+        </experience>
+        <skills>
+            <title>Skills</title>
+            <list>
+                <skill>HTML</skill>
+                <skill>CSS</skill>
+                <skill>JavaScript</skill>
+                <skill>React</skill>
+                <skill>Git</skill>
+                <skill>GitHub</skill>
+                <skill>Tailwind CSS</skill>
+                <skill>Sass</skill>
+                <skill>Figma</skill>
+            </list>
+        </skills>
+    </info>
+    <services>
+        <title>SERVICES</title>
+        <list>
+            <service>
+                <name>Web Development</name>
+                <description>Short description of the service offered.</description>
+            </service>
+            <service>
+                <name>Web Design</name>
+                <description>Short description of the service offered.</description>
+            </service>
+            <service>
+                <name>Responsive Web Design</name>
+                <description>Short description of the service offered.</description>
+            </service>
+            <service>
+                <name>SEO (Web Pages)</name>
+                <description>Short description of the service offered.</description>
+            </service>
+        </list>
+    </services>
+    <contact>
+        <title>CONTACT ME</title>
+        <form>
+            <name>Names</name>
+            <email>Email</email>
+            <message>Message</message>
+            <send>Send Message</send>
+        </form>
+        <social>
+            <facebook>Facebook</facebook>
+            <instagram>Instagram</instagram>
+            <linkedin>LinkedIn</linkedin>
+        </social>
+    </contact>
+    <footer>
+        <copy>&#169; All rights reserved by Ghassen Ben Jannet.</copy>
+    </footer>
+</portfolio>

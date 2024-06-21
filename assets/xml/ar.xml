@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portfolio SYSTEM "../dtd/portfolio.dtd">
+<portfolio>
+    <title>موقع المحفظة التفاعلية - غسان</title>
+    <nav>
+        <home>الرئيسية</home>
+        <work>الأعمال</work>
+        <info>معلوماتي</info>
+        <services>الخدمات</services>
+        <contact>اتصل بي</contact>
+    </nav>
+    <home>
+        <name>غسان بن جانيت</name>
+        <profession>مطوّر ويب</profession>
+    </home>
+    <work>
+        <title>فيديو</title>
+    </work>
+    <info>
+        <title>معلوماتي</title>
+        <about>
+            <title>معلومات عني</title>
+            <description>شغوف بإنشاء <b>مواقع ويب بواجهات جميلة</b>. لدي سنوات من الخبرة في <b>تطوير الويب</b> مع العديد من المشاريع المكتملة.</description>
+            <button>تحميل</button>
+        </about>
+        <experience>
+            <title>الخبرة</title>
+            <companies>
+                <company>
+                    <name>Carthage Solutions</name>
+                    <role>مطوّر ويب</role>
+                    <date>04/22 - 07/22</date>
+                    <description>تحليل وتصميم الحل، تنفيذ الميزة، معالجة قاعدة البيانات.</description>
+                </company>
+                <company>
+                    <name>مهندس ويب متدرب</name>
+                    <role>مطوّر ويب</role>
+                    <date>منذ 09/22</date>
+                    <description>تحليل وتصميم، برمجة الويب، معالجة البيانات، اختبار والتحقق.</description>
+                </company>
+            </companies>
+        </experience>
+        <skills>
+            <title>المهارات</title>
+            <list>
+                <skill>HTML</skill>
+                <skill>CSS</skill>
+                <skill>JavaScript</skill>
+                <skill>React</skill>
+                <skill>Git</skill>
+                <skill>GitHub</skill>
+                <skill>Tailwind CSS</skill>
+                <skill>Sass</skill>
+                <skill>Figma</skill>
+            </list>
+        </skills>
+    </info>
+    <services>
+        <title>الخدمات</title>
+        <list>
+            <service>
+                <name>تطوير الويب</name>
+                <description>وصف قصير للخدمة المقدمة.</description>
+            </service>
+            <service>
+                <name>تصميم الويب</name>
+                <description>وصف قصير للخدمة المقدمة.</description>
+            </service>
+            <service>
+                <name>تصميم الويب المتجاوب</name>
+                <description>وصف قصير للخدمة المقدمة.</description>
+            </service>
+            <service>
+                <name>SEO (صفحات الويب)</name>
+                <description>وصف قصير للخدمة المقدمة.</description>
+            </service>
+        </list>
+    </services>
+    <contact>
+        <title>اتصل بي</title>
+        <form>
+            <name>الأسماء</name>
+            <email>البريد الإلكتروني</email>
+            <message>رسالة</message>
+            <send>إرسال الرسالة</send>
+        </form>
+        <social>
+            <facebook>فيسبوك</facebook>
+            <instagram>إنستغرام</instagram>
+            <linkedin>لينكد إن</linkedin>
+        </social>
+    </contact>
+    <footer>
+        <copy>&#169; جميع الحقوق محفوظة لـ غسان بن جانيت</copy>
+    </footer>
+</portfolio>
