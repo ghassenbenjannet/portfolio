@@ -119,7 +119,7 @@ document.querySelectorAll('.flag-icon').forEach(flag => {
 
 
 function loadVideo(language) {
-  const videoSource = document.getElementById('video-source');
+   const youtubeEmbed = document.getElementById('youtube-embed');
    switch (language) {
       case 'fr':
          youtubeEmbed.src = 'https://www.youtube.com/embed/jV_ngc_tj2M?si=2-ynrG58gfqMcZod';
@@ -135,5 +135,5 @@ function loadVideo(language) {
          break;
    }
 
-  document.getElementById('work-video').load();
+  document.getElementById('youtubeEmbed').load();
 }
