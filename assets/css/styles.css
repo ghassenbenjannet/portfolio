@@ -301,9 +301,9 @@ img {
 .video-container {
   margin-top: 20px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 #work-video {
@@ -728,8 +728,13 @@ img {
     justify-content: center;
   }
 }
-
+@media screen and (min-width: 1150px) {
+  .video-container {
+    margin-left: 55%;
+  }
+}
 @media screen and (min-width: 768px) {
+
   .nav__menu {
     width: 50%;
   }
@@ -744,10 +749,6 @@ img {
   }
   .home__scroll {
     grid-column: 1/3;
-  }
-
-  .work__container {
-    grid-template-columns: repeat(2, 350px);
   }
 
   .info__container {
