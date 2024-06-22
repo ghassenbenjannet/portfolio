@@ -120,20 +120,20 @@ document.querySelectorAll('.flag-icon').forEach(flag => {
 
 function loadVideo(language) {
   const videoSource = document.getElementById('video-source');
-  switch (language) {
+   switch (language) {
       case 'fr':
-          videoSource.src = './assets/videos/fr.mp4';
-          break;
-      case 'en':
-          videoSource.src = './assets/videos/en.mp4';
-          break;
+         youtubeEmbed.src = 'https://www.youtube.com/embed/jV_ngc_tj2M?si=2-ynrG58gfqMcZod';
+         youtubeEmbed.style.display = 'block';
+         break;
       case 'ar':
-          videoSource.src = './assets/videos/ar.mp4';
-          break;
+         youtubeEmbed.src = 'https://www.youtube.com/embed/uJiV8DadRQw?si=lXbbCNTc2VGeagKH';
+         youtubeEmbed.style.display = 'block';
+         break;
       default:
-          videoSource.src = './assets/videos/en.mp4'; 
-          break;
-  }
+         youtubeEmbed.src = 'https://www.youtube.com/embed/-EtirKBzvAQ?si=qhAx9C906lHnjL0p';
+         youtubeEmbed.style.display = 'block';
+         break;
+   }
 
   document.getElementById('work-video').load();
 }
