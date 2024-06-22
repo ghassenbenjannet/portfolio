@@ -99,6 +99,9 @@ function updateContent(data ,lang) {
    document.getElementById('contact-title').textContent = data.contact.title;
    document.getElementById('send-message').textContent = data.contact.form.send;
    document.getElementById('message').setAttribute('placeholder', data.contact.form.message);
+   document.getElementById('name').setAttribute('placeholder', data.contact.form.name);
+   document.getElementById('email').setAttribute('placeholder', data.contact.form.email);
+
 
    // Mettre à jour les réseaux sociaux
    document.getElementById('footer-copy').innerHTML = data.footer.copy;

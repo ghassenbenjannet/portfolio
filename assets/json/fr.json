@@ -67,7 +67,7 @@
     "contact": {
       "title": "CONTACTEZ-MOI",
       "form": {
-        "name": "Noms",
+        "name": "Nom",
         "email": "Email",
         "message": "Message",
         "send": "Envoyer le message"
