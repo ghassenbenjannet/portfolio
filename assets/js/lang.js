@@ -122,16 +122,16 @@ function loadVideo(language) {
   const videoSource = document.getElementById('video-source');
   switch (language) {
       case 'fr':
-          videoSource.src = 'assets/videos/fr.mp4';
+          videoSource.src = './assets/videos/fr.mp4';
           break;
       case 'en':
-          videoSource.src = 'assets/videos/en.mp4';
+          videoSource.src = './assets/videos/en.mp4';
           break;
       case 'ar':
-          videoSource.src = 'assets/videos/ar.mp4';
+          videoSource.src = './assets/videos/ar.mp4';
           break;
       default:
-          videoSource.src = 'assets/videos/en.mp4'; 
+          videoSource.src = './assets/videos/en.mp4'; 
           break;
   }
 

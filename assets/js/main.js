@@ -43,7 +43,9 @@ const contactForm = document.getElementById('contact-form'),
 const sendEmail = (e) => {
    e.preventDefault()
    
-   // serviceID - templateID - #form - publicKey
+   serviceID ="service_kvn5kw8" ;
+   templateID = "template_xsze29a"
+   publicKey = 'pI4L_tNxRDMKn9aq3';
    emailjs.sendForm('', '', '#contact-form', '')
       .then(() => {
          // Show sent message
