@@ -730,7 +730,7 @@ img {
 }
 @media screen and (min-width: 1150px) {
   .video-container {
-    margin-left: 55%;
+    margin-left: 55%; 
   }
 }
 @media screen and (min-width: 768px) {
