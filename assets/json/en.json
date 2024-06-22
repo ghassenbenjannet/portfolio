@@ -1,0 +1,85 @@
+{
+    "title": "Responsive portfolio - Ghasen BJ",
+    "nav": {
+      "home": "Home",
+      "work": "Work",
+      "info": "My Info",
+      "services": "Services",
+      "contact": "Contact Me"
+    },
+    "home": {
+      "name": "Ghassen Ben Jannet",
+      "profession": "Web Developer"
+    },
+    "work": {
+      "title": "VIDEO"
+    },
+    "info": {
+      "title": "MY INFO",
+      "about": {
+        "title": "About Me",
+        "description": "Passionate about creating <b>websites with beautiful interfaces</b>. I have years of experience in <b>Web Development</b> with several projects completed.",
+        "button": "Download"
+      },
+      "experience": {
+        "title": "Experience",
+        "companies": [
+          {
+            "name": "Carthage Solutions",
+            "role": "Web Developer",
+            "date": "04/22 - 07/22",
+            "description": "Analysis and design of the solution, Implementation of the feature, Database manipulation."
+          },
+          {
+            "name": "Apprentice web engineer",
+            "role": "Web Developer",
+            "date": "Since 09/22",
+            "description": "Analysis and design, Web programming, Data manipulation, Testing and validation."
+          }
+        ]
+      },
+      "skills": {
+        "title": "Skills",
+        "list": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Tailwind CSS", "Sass", "Figma"]
+      }
+    },
+    "services": {
+      "title": "SERVICES",
+      "list": [
+        {
+          "name": "Web Development",
+          "description": "Short description of the service offered."
+        },
+        {
+          "name": "Web Design",
+          "description": "Short description of the service offered."
+        },
+        {
+          "name": "Responsive Web Design",
+          "description": "Short description of the service offered."
+        },
+        {
+          "name": "SEO (Web Pages)",
+          "description": "Short description of the service offered."
+        }
+      ]
+    },
+    "contact": {
+      "title": "CONTACT ME",
+      "form": {
+        "name": "Names",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+      },
+      "social": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "linkedin": "Linkedin"
+      }
+    },
+    "footer": {
+      "copy": "&#169; All Rights Reserved By Ghassen Ben Jannet."
+    }
+  }
+  

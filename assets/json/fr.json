@@ -1,0 +1,85 @@
+{
+    "title": "Portfolio responsif - Ghassen BJ",
+    "nav": {
+      "home": "Accueil",
+      "work": "Travaux",
+      "info": "Mes Infos",
+      "services": "Services",
+      "contact": "Contactez-moi"
+    },
+    "home": {
+      "name": "Ghassen Ben Jannet",
+      "profession": "Développeur Web"
+    },
+    "work": {
+      "title": "Vidéos récents"
+    },
+    "info": {
+      "title": "MES INFOS",
+      "about": {
+        "title": "À propos de moi",
+        "description": "Passionné par la création de <b>sites web avec de belles interfaces</b>. J'ai des années d'expérience en <b>Développement Web</b> avec plusieurs projets complétés.",
+        "button" : "Télécharger"
+      },
+      "experience": {
+        "title": "Expérience",
+        "companies": [
+          {
+            "name": "Carthage Solutions",
+            "role": "Développeur Web",
+            "date": "04/22 - 07/22",
+            "description": "Analyse et conception de la solution, Implémentation de la fonctionnalité, Manipulation de la base de données."
+          },
+          {
+            "name": "Apprenti ingénieur web",
+            "role": "Développeur Web",
+            "date": "Depuis 09/22",
+            "description": "Analyse et conception, Programmation web, Manipulation des données, Testing et validation."
+          }
+        ]
+      },
+      "skills": {
+        "title": "Compétences",
+        "list": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Tailwind CSS", "Sass", "Figma"]
+      }
+    },
+    "services": {
+      "title": "SERVICES",
+      "list": [
+        {
+          "name": "Développement Web",
+          "description": "Description courte du service offert."
+        },
+        {
+          "name": "Design Web",
+          "description": "Description courte du service offert."
+        },
+        {
+          "name": "Design Web Responsive",
+          "description": "Description courte du service offert."
+        },
+        {
+          "name": "SEO (Pages Web)",
+          "description": "Description courte du service offert."
+        }
+      ]
+    },
+    "contact": {
+      "title": "CONTACTEZ-MOI",
+      "form": {
+        "name": "Noms",
+        "email": "Email",
+        "message": "Message",
+        "send": "Envoyer le message"
+      },
+      "social": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "linkedin": "Linkedin"
+      }
+    },
+    "footer": {
+      "copy": "&#169; Tous droits réservés par Ghassen Ben Jannet."
+    }
+  }
+  

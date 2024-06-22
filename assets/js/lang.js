@@ -1,18 +1,30 @@
+// Fonction pour charger le contenu en fonction de la langue spécifiée dans l'URL ou par défaut l'anglais
+function loadContentFromUrl() {
+    // Récupérer le paramètre de langue depuis l'URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || 'en'; // Si le paramètre lang n'est pas défini, par défaut 'en'
+
+    // Charger le contenu en fonction de la langue détectée
+    loadContent(lang);
+    loadVideo(lang);
+}
+
+// Fonction pour charger le contenu en fonction de la langue sélectionnée
 function loadContent(language) {
     let jsonFile;
     switch (language) {
-       case 'fr':
-          jsonFile = 'assets/json/fr.json';
-          break;
-       case 'en':
-          jsonFile = 'assets/json/en.json';
-          break;
-       case 'ar':
-          jsonFile = 'assets/json/ar.json';
-          break;
-       default:
-          jsonFile = 'assets/json/en.json'; // Par défaut, charger l'anglais
-          break;
+        case 'fr':
+            jsonFile = 'assets/json/fr.json';
+            break;
+        case 'en':
+            jsonFile = 'assets/json/en.json';
+            break;
+        case 'ar':
+            jsonFile = 'assets/json/ar.json';
+            break;
+        default:
+            jsonFile = 'assets/json/en.json'; // Par défaut, charger l'anglais
+            break;
     }
 
     // Charger le fichier JSON
@@ -56,7 +68,6 @@ function loadContent(language) {
     document.getElementById('about-description').innerHTML = data.info.about.description;
     document.getElementById('about-button').textContent = data.info.about.button;
 
-
     // Mettre à jour la section Expérience (Experience)
     document.getElementById('experience-title').textContent = data.info.experience.title;
     const experienceContent = document.getElementById('experience-content');
@@ -79,7 +90,7 @@ function loadContent(language) {
     // Mettre à jour la section Services
     document.getElementById('services-title').textContent = data.services.title;
     const servicesContainer = document.getElementById('services-container');
-    servicesContainer.innerHTML !== null && servicesContainer.innerHTML !== undefined ? servicesContainer.innerHTML = '' : null;
+    servicesContainer.innerHTML = '';
     data.services.list.forEach(service => {
        const serviceItem = document.createElement('div');
        serviceItem.classList.add('services__content');
@@ -99,14 +110,34 @@ function loadContent(language) {
     document.getElementById('footer-copy').innerHTML = data.footer.copy;
  }
 
- // Initialisation : Charger le contenu en anglais par défaut
- loadContent('en');
+ loadContentFromUrl();
 
- // Gestion des clics sur les drapeaux pour changer la langue
  document.querySelectorAll('.flag-icon').forEach(flag => {
     flag.addEventListener('click', function(event) {
        event.preventDefault();
-       const lang = this.getAttribute('href').split('=')[1]; // Récupérer la langue à partir de l'attribut href
-       loadContent(lang); // Charger le contenu correspondant à la langue sélectionnée
+       const lang = this.getAttribute('href').split('=')[1]; 
+       loadContent(lang); 
+       history.replaceState({}, '', this.getAttribute('href'));
     });
  });
+
+
+ function loadVideo(language) {
+   const videoSource = document.getElementById('video-source');
+   switch (language) {
+       case 'fr':
+           videoSource.src = 'assets/videos/fr.mp4';
+           break;
+       case 'en':
+           videoSource.src = 'assets/videos/en.mp4';
+           break;
+       case 'ar':
+           videoSource.src = 'assets/videos/ar.mp4';
+           break;
+       default:
+           videoSource.src = 'assets/videos/en.mp4'; // Par défaut, charger la vidéo en anglais
+           break;
+   }
+
+   document.getElementById('work-video').load();
+}
