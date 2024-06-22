@@ -135,5 +135,4 @@ function loadVideo(language) {
          break;
    }
 
-  document.getElementById('youtubeEmbed').load();
 }
