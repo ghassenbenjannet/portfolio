@@ -2,15 +2,10 @@ const urlParams = new URLSearchParams(window.location.search);
 let lang = urlParams.get('lang') || 'en';
 
 function loadContentFromUrl() {
-   // Récupérer le paramètre de langue depuis l'URL
-    // Si le paramètre lang n'est pas défini, par défaut 'en'
-
-   // Charger le contenu en fonction de la langue détectée
    loadContent(lang);
    loadVideo(lang);
 }
 
-// Fonction pour charger le contenu en fonction de la langue sélectionnée
 function loadContent(language) {
    let jsonFile;
    switch (language) {
@@ -24,11 +19,10 @@ function loadContent(language) {
            jsonFile = 'assets/json/ar.json';
            break;
        default:
-           jsonFile = 'assets/json/en.json'; // Par défaut, charger l'anglais
+           jsonFile = 'assets/json/en.json'; 
            break;
    }
 
-   // Charger le fichier JSON
    fetch(jsonFile)
       .then(response => {
          if (!response.ok) {
@@ -44,7 +38,6 @@ function loadContent(language) {
       });
 }
 
-// Fonction pour mettre à jour les éléments HTML avec les données du JSON
 function updateContent(data ,lang) {
    // Mettre à jour le titre de la page
    document.getElementById('page-title').textContent = data.title;
@@ -138,7 +131,7 @@ function loadVideo(language) {
           videoSource.src = 'assets/videos/ar.mp4';
           break;
       default:
-          videoSource.src = 'assets/videos/en.mp4'; // Par défaut, charger la vidéo en anglais
+          videoSource.src = 'assets/videos/en.mp4'; 
           break;
   }
 
