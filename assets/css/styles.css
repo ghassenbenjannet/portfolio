@@ -306,10 +306,8 @@ img {
   align-items: center !important;
 }
 
-#work-video {
+#youtube-embed {
   width: 100%;
-  max-width: 800px; /* Ajustez selon vos besoins */
-  height: auto;
 }
 
 .home__img {
