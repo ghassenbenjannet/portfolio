@@ -19,7 +19,7 @@
       "about": {
         "title": "About Me",
         "description": "Passionate about creating <b>websites with beautiful interfaces</b>. I have years of experience in <b>Web Development</b> with several projects completed.",
-        "button": "Download"
+        "button": "Download CV"
       },
       "experience": {
         "title": "Experience",
@@ -28,13 +28,13 @@
             "name": "Carthage Solutions",
             "role": "Web Developer",
             "date": "04/22 - 07/22",
-            "description": "Analysis and design of the solution, Implementation of the feature, Database manipulation."
+            "description": "- Solution analysis and design<br>- Functionality implementation<br>- Database manipulation<br>Keywords: PHP, Symfony, Mysql, UML diagrams, Bootstrap, DomPDF"
           },
           {
-            "name": "Apprentice web engineer",
-            "role": "Web Developer",
+            "name": "UNEDIC",
+            "role": "Apprentice web engineer",
             "date": "Since 09/22",
-            "description": "Analysis and design, Web programming, Data manipulation, Testing and validation."
+            "description": "- Analysis and design <br>- Web programming<br>- Data manipulation<br>- Testing and validation<br>Keywords: PHP, Symfony, MySQL, MongoDB, JSON, Scrum, Cockpit, JS, Git, Jira, Confluence"
           }
         ]
       },
@@ -44,25 +44,25 @@
       }
     },
     "services": {
-      "title": "SERVICES",
-      "list": [
-        {
-          "name": "Web Development",
-          "description": "Short description of the service offered."
-        },
-        {
-          "name": "Web Design",
-          "description": "Short description of the service offered."
-        },
-        {
-          "name": "Responsive Web Design",
-          "description": "Short description of the service offered."
-        },
-        {
-          "name": "SEO (Web Pages)",
-          "description": "Short description of the service offered."
-        }
-      ]
+        "title": "SERVICES",
+        "list": [
+            {
+                "name": "Web Development",
+                "description": "Creation and maintenance of responsive and dynamic websites."
+            },
+            {
+                "name": "Web Design",
+                "description": "Designing attractive mockups and user interfaces."
+            },
+            {
+                "name": "Responsive Web Design",
+                "description": "Adapting websites for optimal experience on all devices."
+            },
+            {
+                "name": "SEO (Web Pages)",
+                "description": "Optimizing websites for better ranking in search engines."
+            }
+        ]
     },
     "contact": {
       "title": "CONTACT ME",

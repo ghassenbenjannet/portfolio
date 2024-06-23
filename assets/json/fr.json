@@ -19,7 +19,7 @@
       "about": {
         "title": "À propos de moi",
         "description": "Passionné par la création de <b>sites web avec de belles interfaces</b>. J'ai des années d'expérience en <b>Développement Web</b> avec plusieurs projets complétés.",
-        "button" : "Télécharger"
+        "button" : "Télécharger CV"
       },
       "experience": {
         "title": "Expérience",
@@ -28,13 +28,13 @@
             "name": "Carthage Solutions",
             "role": "Développeur Web",
             "date": "04/22 - 07/22",
-            "description": "Analyse et conception de la solution, Implémentation de la fonctionnalité, Manipulation de la base de données."
+            "description": "- Analyse et conception de la solution<br>- Implémentation de la fonctionnalité<br>- Manipulation de la base de données<br>Mots clés: PHP, Symfony, Mysql, Diagrammes UML, Bootstrap, DomPDF"
           },
           {
             "name": "Apprenti ingénieur web",
             "role": "Développeur Web",
             "date": "Depuis 09/22",
-            "description": "Analyse et conception, Programmation web, Manipulation des données, Testing et validation."
+            "description": "- Analyse et conception <br>- Programmation web<br>- Manipulation des données<br>- Testing and validation<br>Keywords: PHP, Symfony, MySQL, MongoDB, JSON, Scrum, Cockpit, JS, Git,Jira, Confluence"
           }
         ]
       },
