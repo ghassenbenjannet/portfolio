@@ -4,21 +4,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* 
-        Change favorite color
-        Default: hsl(230, 55%, 55%)
-        Purple: hsl(245, 55%, 55%) - Blue: hsl(210, 55%, 55%)
-        Pink: hsl(340, 55%, 55%) - Green: hsl(162, 55%, 55%)
-        Orange: hsl(14, 55%, 55%)
-
-        For more colors visit: https://colors.dopely.top/color-pedia
-        -> Choose any color 
-        -> Click on tab (Color Conversion)
-        -> Copy the color mode (HSL)
-  */
   --hue: 230;
   --first-color: hsl(var(--hue), 55%, 55%);
   --first-color-light: hsl(var(--hue), 55%, 65%);
